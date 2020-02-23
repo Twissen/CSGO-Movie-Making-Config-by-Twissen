@@ -4,6 +4,6 @@
 // CFG Version
 // Name: twissen_movieCFG.cfg
 // Autor: Twissen
-// Version: V5-First Github Release
+// Version: V5.1
 // V5 Release Date: 08/31/2019
-// Latest Update: 01/13/2020 (Github Release)
+// Latest Update: 02/24/2020
