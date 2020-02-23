@@ -1,6 +1,0 @@
-To install the config, simply follow the path below and drag it into the cfg folder.
-You delete all other configs inside the csgo > cfg folder if you already back all them up.
-*You can use HLAE normal launch and locate moviemaking cfg folder if you would like.
-
-
-Steam -> steamapps -> common -> Counter-Strike Global Offensive -> csgo -> cfg
