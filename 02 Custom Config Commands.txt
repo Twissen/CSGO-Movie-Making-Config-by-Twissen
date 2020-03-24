@@ -1,3 +1,6 @@
+//Twissen Config Version: 5.2
+
+
 **First of all you have to launch CS:GO through HLAE**
 
 
@@ -23,7 +26,7 @@ SMOOTHon
 STREAMS
 CLEAN / CLEANworld (If you want to record with mirv stream) " You can choose what ever you need "
 GREEN / GREENsky / GREENmodels / GREENweapons / GREENeffects / GREENbloods (If you want to record with mirv stream) " You can choose what ever you need. "
-DOF / Mydof / DOFworld / (If you want record with mirv stream) " You can choose what ever you need. "
+depth / mydepth / depthWORLD / (If you want record with mirv stream) " You can choose what ever you need. "
 ffmpeg (**if you are going to use ffmpeg recording method)
 [F4] (Start Record)
 [F5] (Stop Record)
@@ -46,11 +49,10 @@ GREENsky  - Loads Skybox Green Stream
 GREENmodels - Loads Only Models Green Stream
 GREENweapons - Loads Only Weapons Green Stream
 GREENeffects  - Loads Only Effects Green Stream (Blood,shell)
-DOF  - Loads Depth of Field Stream
-myDOF  - Loads Deptf of Field Stream (my settings)
-DOFworld - Load Depth of Field World Screen
+depth  - Loads Depth of Field Stream
+mydepth  - Loads Deptf of Field Stream (my settings)
+depthworld- Load Depth of Field World Screen
 WALLon  - Enable Wallhack
-WALLmodels - Enable Wallhack Models Only
 WALLdmoff - Disable Deathmessages on Wallhack Streams
 WALLoff  - Disable Wallhack
 CAMon  - Loads Mirv Camera
@@ -74,15 +76,12 @@ setCAMfive  - Loads Mirv Camera Preset 5
 setCAMsix  - Loads Mirv Camera Preset 6
 setCAMseven  - Loads Mirv Camera Preset 7
 Skin  - Enable/Disable Skins
-Deathmessage_on  - Enables Deathmessages
-Deathmessage_off  - Disables Deathmessages
 [SHIFT+F2]  - Demo Player
 [INS]  - Pause Demo
 [HOME]  - Resume Demo
 [+] - Increase FOV
 [-] - Decrease FOV
 [*] - Resets FOV Value to Config Default
-[M]  - Deathmessage ON/OFF
 [R]  - Reset All Settings
 [F] - Fog ON/OFF
 [C]  - Enable/Disable Crosshair

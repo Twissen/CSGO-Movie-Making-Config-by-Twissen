@@ -1,11 +1,15 @@
+//Twissen Config Version: 5.2
+
+
 --CONTACT--
+wwww.sktwissen.com
 YT : www.youtube.com/TwissenPB
 Fiverr: www.fiverr.com/twissen
-FB : www.facebook.com/twissenmvm
 FB : www.facebook.com/sktwissen
+FB : www.facebook.com/twissenmvm
 Steam : TwisseN
 Skype : TwissenZ
-Gmail : twissenmvm@gmail.com
+Gmail : sktwissen@gmail.com
 
 
 TwisseN

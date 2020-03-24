@@ -1,9 +1,25 @@
 // CFG Version
 // Name: twissen_movieCFG.cfg
 // Autor: Twissen
-// Version: V5.1
-// V5 Release Date: 08/31/2019
-// Latest Update: 02/24/2020
+// Version: V5.2
+// Release Date: 03/24/2020
 
-
--FFmpeg config has been updated. New recording setting has been added (lossless rgb-mov) and set to default.
+-Long aliases have been split to pieces.
+-Deathmessage removal commands have temporarily been removed.
+-clean stream has been upgraded to new system.
+-cleanworld stream has been upgraded to new system.
+-greeen stream has been upgraded to new system.
+-greeenmodels stream has been upgraded to new system.
+-greeenweapons stream has been upgraded to new system.
+-greeenbloods stream has been upgraded to new system.
+-greeensky stream has been upgraded to new system.
+-greeeneffects stream has been upgraded to new system.
+-dof stream name changed to depth and and has been upgraded to new system.
+-mydof stream name changed to mydepth and it has been upgraded to new system.
+-dofworld stream name changed to dofworld and it has been upgraded to new system.
+-Some bugs on HUD stream has been fixed.
+-wallmodels stream has temporarily removed.
+-doffix command has changed to depthfix.
+-ffmpeg config has been updated.
+-New info box has been added to ffmpeg config.
+-Info box has been renewed on twissen config.
