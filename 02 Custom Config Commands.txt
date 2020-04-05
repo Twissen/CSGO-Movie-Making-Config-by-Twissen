@@ -1,4 +1,4 @@
-//Twissen Config Version: 5.2
+//Twissen Config Version: 5.3
 
 
 **First of all you have to launch CS:GO through HLAE**
@@ -51,6 +51,7 @@ GREENweapons - Loads Only Weapons Green Stream
 GREENeffects  - Loads Only Effects Green Stream (Blood,shell)
 depth  - Loads Depth of Field Stream
 mydepth  - Loads Deptf of Field Stream (my settings)
+mydepth24 - Loads High Precision Depth Stream
 depthworld- Load Depth of Field World Screen
 WALLon  - Enable Wallhack
 WALLdmoff - Disable Deathmessages on Wallhack Streams
@@ -107,3 +108,6 @@ RESETmirv  - Cleans All Streams
 RESETfog  - Resets Fog Settings
 RESETcam  - Removes Mirv Camera
 RESETall  - Resets All Settings
+
+//FFmpeg
+rffmpeg - Remove FFmpeg Recording

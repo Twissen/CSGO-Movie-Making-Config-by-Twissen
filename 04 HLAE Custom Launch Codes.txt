@@ -1,4 +1,6 @@
-//Twissen Config Version: 5.2
+//Twissen Config Version: 5.3
 
 
--dxlevel 98 -nojoy -novid +high +autoexec -w 1920 -h 1080
+-dxlevel 98 -nojoy -novid +high +autoexec
+
+-w 1920 -h 1080 (resolution commands)

@@ -1,8 +1,8 @@
 // CFG Version
 // Name: twissen_movieCFG.cfg
 // Autor: Twissen
-// Version: V5.2
-// Release Date: 03/24/2020
+// Version: V5.3
+// Release Date: 04/05/2020
 
 -Long aliases have been split to pieces.
 -Deathmessage removal commands have temporarily been removed.
@@ -23,3 +23,5 @@
 -ffmpeg config has been updated.
 -New info box has been added to ffmpeg config.
 -Info box has been renewed on twissen config.
+-Minor fixes have been made.
+-mydepth24 stream has been added.

@@ -1,4 +1,4 @@
-//Twissen Config Version: 5.2
+//Twissen Config Version: 5.3
 
 
 Be aware that, this config files resets all keyboard and mouse binds. So, do not forget to backup your main config file along with your in-game settings.
