@@ -1,4 +1,4 @@
-//Twissen Config Version: 5.3
+//Twissen Config Version: 5.4
 
 
 **First of all you have to launch CS:GO through HLAE**
@@ -10,7 +10,7 @@ exec autoexec
 exec twissen
 FRAGon
 STREAMS 
-CLEAN / CLEANworld (If you want to record with mirv stream) " You can choose what ever you need. "
+CLEAN / CLEANworld / CLEANworld2 (If you want to record with mirv stream) " You can choose what ever you need. "
 GREEN / GREENsky / GREENmodels / GREENweapons / GREENeffects / GREENbloods (If you want record to with mirv stream) " You can choose what ever you need ."
 DOF / myDOF / DOFworld (If you want to record with mirv stream) " You can choose what ever you need. "
 ffmpeg (**if you are going to use ffmpeg recording method)
@@ -24,7 +24,7 @@ ffmpeg (**if you are going to use ffmpeg recording method)
 exec twissen
 SMOOTHon
 STREAMS
-CLEAN / CLEANworld (If you want to record with mirv stream) " You can choose what ever you need "
+CLEAN / CLEANworld / CLEANworld2 (If you want to record with mirv stream) " You can choose what ever you need "
 GREEN / GREENsky / GREENmodels / GREENweapons / GREENeffects / GREENbloods (If you want to record with mirv stream) " You can choose what ever you need. "
 depth / mydepth / depthWORLD / (If you want record with mirv stream) " You can choose what ever you need. "
 ffmpeg (**if you are going to use ffmpeg recording method)
@@ -43,7 +43,8 @@ SPon  -  Enables Shadow Play Mode
 SPoff  -  Disables Shadow Play Mode
 STREAMS - Activates Mirv Streams Commands
 CLEAN  - Loads RAW Stream
-CLEANworld  - Loads Clean World Stream
+CLEANworld  - Loads Clean World Stream with Models
+CLEANworld2 - Loads Clean World Stream
 GREEN  - Loads Green Stream
 GREENsky  - Loads Skybox Green Stream
 GREENmodels - Loads Only Models Green Stream
@@ -83,6 +84,7 @@ Skin  - Enable/Disable Skins
 [+] - Increase FOV
 [-] - Decrease FOV
 [*] - Resets FOV Value to Config Default
+[.] - Fixes the Reshade Problem (/ key on English keyboard, next to the shift key)
 [R]  - Reset All Settings
 [F] - Fog ON/OFF
 [C]  - Enable/Disable Crosshair
