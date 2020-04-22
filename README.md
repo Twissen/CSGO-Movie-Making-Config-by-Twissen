@@ -7,3 +7,8 @@
 // Author: Twissen
 // Version: V5.5
 // Latest Update: 22/05/2020
+
+Changelog:
+-CLEANworld2 stream auto record problem has been fixed
+-Deathmessage problem has been fixed.
+-Minor bugs has been fixed.
