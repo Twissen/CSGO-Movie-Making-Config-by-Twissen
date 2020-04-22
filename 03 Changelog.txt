@@ -1,9 +1,9 @@
 // CFG Version
 // Name: twissen_movieCFG.cfg
 // Autor: Twissen
-// Version: V5.4
-// Release Date: 17/05/2020
+// Version: V5.5
+// Release Date: 22/05/2020
 
--CLEANworld2 stream has been added.
--Reshade Fix bind has been added.
--Some codes has been fixed.
+-CLEANworld2 stream auto record problem has been fixed
+-Deathmessage problem has been fixed.
+-Minor bugs has been fixed.
