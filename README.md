@@ -5,10 +5,10 @@
 // CFG Version
 // Name: twissen_movieCFG.cfg
 // Author: Twissen
-// Version: V5.5
-// Latest Update: 22/05/2020
+// Version: V5.6
+// Latest Update: 07/05/2020
 
 Changelog:
--CLEANworld2 stream auto record problem has been fixed
--Deathmessage problem has been fixed.
--Minor bugs has been fixed.
+-Greensky stream has been fixed.
+-Greenweapons stream has been fixed.
+-Some old information has been deleted from the config.
