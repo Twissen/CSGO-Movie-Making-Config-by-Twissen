@@ -4,11 +4,11 @@
 
 // CFG Version
 // Name: twissen_movieCFG.cfg
-// Author: Twissen
-// Version: V5.6
-// Latest Update: 07/05/2020
+// Autor: Twissen
+// Version: V5.7
+// Release Date: 05/11/2020
 
-Changelog:
--Greensky stream has been fixed.
--Greenweapons stream has been fixed.
--Some old information has been deleted from the config.
+-Config info has been changed and organized.
+-FFmpeg config has been updated.
+-Mirv Agr has been added to config. Check out the config for further information.
+-Some bugs has been fixed.

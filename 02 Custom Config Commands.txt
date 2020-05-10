@@ -1,4 +1,4 @@
-//Twissen Config Version: 5.5
+//Twissen Config Version: 5.7
 
 
 **First of all you have to launch CS:GO through HLAE**
@@ -12,12 +12,13 @@ FRAGon
 STREAMS 
 CLEAN / CLEANworld / CLEANworld2 (If you want to record with mirv stream) " You can choose what ever you need. "
 GREEN / GREENsky / GREENmodels / GREENweapons / GREENeffects / GREENbloods (If you want record to with mirv stream) " You can choose what ever you need ."
-DOF / myDOF / DOFworld (If you want to record with mirv stream) " You can choose what ever you need. "
+depth / mydepth / depthworld / mydepth24* (If you want to record with mirv stream) " You can choose what ever you need. "
 ffmpeg (**if you are going to use ffmpeg recording method)
 [F4] (Start Record)
 [F5] (Stop Record)
 *You can use [F11] & [F12] to start and stop record if you didn't use mirv streams"
 *You can clear all streams by typing "RESETmirv" or "RESETall"
+*You can't record mydepth24 with the ffmpeg.
 
 
 //Smooth Record:
@@ -26,90 +27,93 @@ SMOOTHon
 STREAMS
 CLEAN / CLEANworld / CLEANworld2 (If you want to record with mirv stream) " You can choose what ever you need "
 GREEN / GREENsky / GREENmodels / GREENweapons / GREENeffects / GREENbloods (If you want to record with mirv stream) " You can choose what ever you need. "
-depth / mydepth / depthWORLD / (If you want record with mirv stream) " You can choose what ever you need. "
+depth / mydepth / depthWORLD / mydepth24* (If you want record with mirv stream) " You can choose what ever you need. "
 ffmpeg (**if you are going to use ffmpeg recording method)
 [F4] (Start Record)
 [F5] (Stop Record)
 *You can use [F11] & [F12] to start and stop record if you don't use mirv streams"
 *You can clear all streams by typing "RESETmirv" or "RESETall"
-
+*You can't record mydepth24 with the ffmpeg.
 
 -FEATURES:
-FRAGon  -  Loads Frag Mode
-SMOOTHon  - Loads Smooth Mode
-FRAPSfrag  - Loads Fraps Frag Mode
-FRAPSsmooth  - Loads Fraps Smooth Mode
-SPon  -  Enables Shadow Play Mode
-SPoff  -  Disables Shadow Play Mode
-STREAMS - Activates Mirv Streams Commands
-CLEAN  - Loads RAW Stream
-CLEANworld  - Loads Clean World Stream with Models
-CLEANworld2 - Loads Clean World Stream
-GREEN  - Loads Green Stream
-GREENsky  - Loads Skybox Green Stream
-GREENmodels - Loads Only Models Green Stream
+FRAGon       -  Loads Preset for Frag Recording
+SMOOTHon     - Loads Preset for Smooth(Cinematic) Recording
+FRAPSfrag    - Loads Preset for Fraps Frag Recording
+FRAPSsmooth  - Loads Preset for Fraps Smooth Recording
+SPon         -  Enables Preset for Shadowplay Recording
+SPoff        -  Disables Shadowplay Recording Preset
+STREAMS      - Activates Mirv Streams Commands
+CLEAN        - Loads RAW Stream
+CLEANworld   - Loads Clean World Stream with Models
+CLEANworld2  - Loads Clean World Stream
+GREEN        - Loads Green Stream
+GREENsky     - Loads Skybox Green Stream
+GREENmodels  - Loads Only Models Green Stream
 GREENweapons - Loads Only Weapons Green Stream
-GREENeffects  - Loads Only Effects Green Stream (Blood,shell)
-depth  - Loads Depth of Field Stream
-mydepth  - Loads Deptf of Field Stream (my settings)
-mydepth24 - Loads High Precision Depth Stream
-depthworld- Load Depth of Field World Screen
-WALLon  - Enable Wallhack
-WALLdmoff - Disable Deathmessages on Wallhack Streams
-WALLoff  - Disable Wallhack
-CAMon  - Loads Mirv Camera
-HUD  - Loads Hud Stream
-fogcolor0 - Sets Fog Color to Default
-fogcolor1 - Fog Color 1
-fogcolor2 - Fog Color 2
-fogcolor3 - Fog Color 3
-fogcolor4 - Fog Color 4
-fogcolor5 - Fog Color 5
-fogcolor6 - Fog Color 6
-res1	- Loads 720p Resolution Settings
-res2	- Loads 1080p Resolution Settings
-res3	- Loads 1440p Resolution Settings
-res4	- Loads 2160p Resolution Settings
-setCAMone  - Loads Mirv Camera Preset 1
-setCAMtwo  - Loads Mirv Camera Preset 2
-setCAMthree  - Loads Mirv Camera Preset 3
-setCAMfour  - Loads Mirv Camera Preset 4
-setCAMfive  - Loads Mirv Camera Preset 5
-setCAMsix  - Loads Mirv Camera Preset 6
-setCAMseven  - Loads Mirv Camera Preset 7
-Skin  - Enable/Disable Skins
-[SHIFT+F2]  - Demo Player
-[INS]  - Pause Demo
-[HOME]  - Resume Demo
-[+] - Increase FOV
-[-] - Decrease FOV
-[*] - Resets FOV Value to Config Default
-[.] - Fixes the Reshade Problem (/ key on English keyboard, next to the shift key)
-[R]  - Reset All Settings
-[F] - Fog ON/OFF
-[C]  - Enable/Disable Crosshair
-[X]  - Change Skybox
-[K]  - Enable Mirv Camera
-[L]  - Lock Deathmessages for the player you're spectating
-[H]  - Highlight Deathmessages for the player you're spectating
-[T]  - Change Timescale 0.2 / 0
-[F6]  - Only Deathnotices Enable/Disable
-[F7]  - Hud Enable/Disable
-[F8]  - Viewmodel Enable/Disable
-[F9]  - Particles (Smoke+) ON/OFF
-[F10]  - Change Weapon Side
-[UpArrow]   = 500 FPS  
+GREENeffects - Loads Only Effects Green Stream (Blood,shell)
+depth        - Loads Depth of Field Stream
+mydepth      - Loads Deptf of Field Stream (my settings)
+mydepth24    - Loads High Precision Depth Stream
+depthworld   - Loads Depth of Field World Screen
+WALLon       - Enables Wallhack Stream
+WALLoff      - Disables Wallhack Stream
+CAMon        - Loads Mirv Camera
+HUD          - Loads Hud Stream
+fogcolor0    - Sets Fog Color to Default
+fogcolor1    - Fog Color Preset 1
+fogcolor2    - Fog Color Preset 2
+fogcolor3    - Fog Color Preset 3
+fogcolor4    - Fog Color Preset 4
+fogcolor5    - Fog Color Preset 5
+fogcolor6    - Fog Color Preset 6
+res1	     - Loads 720p Resolution Preset
+res2	     - Loads 1080p Resolution Preset
+res3	     - Loads 1440p Resolution Preset
+res4	     - Loads 2160p Resolution Preset
+setCAMone    - Loads Mirv Camera Preset 1 (you have to set mirv_cam first)
+setCAMtwo    - Loads Mirv Camera Preset 2 (you have to set mirv_cam first)
+setCAMthree  - Loads Mirv Camera Preset 3 (you have to set mirv_cam first)
+setCAMfour   - Loads Mirv Camera Preset 4 (you have to set mirv_cam first)
+setCAMfive   - Loads Mirv Camera Preset 5 (you have to set mirv_cam first)
+setCAMsix    - Loads Mirv Camera Preset 6 (you have to set mirv_cam first)
+setCAMseven  - Loads Mirv Camera Preset 7 (you have to set mirv_cam first)
+AGR          - Enables Mirv AGR with the default settings
+AGRweapons   - Enables AGR Recording for Weapons
+AGRptiles    - Enables/Disables Mirv Agr Recording for Granades
+AGRviewmodel - Enables/Disables Mirv Agr Recording for Viewmodel
+Skin         - Enables/Disables Skins
+[SHIFT+F2]   - Demo Player
+[INS]        - Pause Demo
+[HOME]       - Resume Demo
+[+]          - Increase FOV
+[-]          - Decrease FOV
+[*]          - Resets FOV Value to Config Default
+[.]          - Fixes the Reshade Problem (/ key on English keyboard, next to the shift key)
+[R]          - Resets All Settings
+[F]          - Fog ON/OFF
+[C]          - Enables/Disables Crosshair
+[X]          - Changes Skybox
+[K]          - Enables Mirv Camera
+[L]          - Locks Deathmessages for the player you're spectating
+[H]          - Highlights Deathmessages for the player you're spectating
+[T]          - Changes Timescale 0.2 / 0
+[F6]         - Only Deathnotices - Enables/Disables
+[F7]         - Hud Enable/Disable
+[F8]         - Viewmodel Enable/Disable
+[F9]         - Particles (Smoke+) ON/OFF
+[F10]        - Change Weapon Side
+[UpArrow]    = 500 FPS  
 [DownArrow]  = 0 FPS
-[LeftArrow] = 60  FPS  
+[LeftArrow]  = 60  FPS  
 [RightArrow] = 300 FPS
-[Mouse 3] = Add campath
-[Mouse 4] = Enable Campath
-[Mouse 5 / Z] - Clear All Campaths
-[G] = Go 15 Seconds Back
-RESETmirv  - Cleans All Streams
-RESETfog  - Resets Fog Settings
-RESETcam  - Removes Mirv Camera
-RESETall  - Resets All Settings
+[Mouse 3]    - Add campath
+[Mouse 4]    - Enable Campath
+[Mouse 5 / Z]- Clear All Campaths
+[G]          - Goes 15 Seconds Back
+RESETmirv    - Cleans All Streams
+RESETfog     - Resets Fog Settings
+RESETcam     - Removes Mirv Camera
+RESETall     - Resets All Settings
 
 //FFmpeg
-rffmpeg - Remove FFmpeg Recording
+rffmpeg - Removes FFmpeg Recording
