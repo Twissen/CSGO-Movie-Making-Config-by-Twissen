@@ -1,4 +1,4 @@
-//Twissen Config Version: 5.7
+//Twissen Config Version: 5.8
 
 
 **First of all you have to launch CS:GO through HLAE**
@@ -82,13 +82,13 @@ AGRweapons   - Enables AGR Recording for Weapons
 AGRptiles    - Enables/Disables Mirv Agr Recording for Granades
 AGRviewmodel - Enables/Disables Mirv Agr Recording for Viewmodel
 Skin         - Enables/Disables Skins
+Vgui		 - Enables/Disables Vgui (Fixes the Reshade Problem)
 [SHIFT+F2]   - Demo Player
 [INS]        - Pause Demo
 [HOME]       - Resume Demo
 [+]          - Increase FOV
 [-]          - Decrease FOV
 [*]          - Resets FOV Value to Config Default
-[.]          - Fixes the Reshade Problem (/ key on English keyboard, next to the shift key)
 [R]          - Resets All Settings
 [F]          - Fog ON/OFF
 [C]          - Enables/Disables Crosshair
