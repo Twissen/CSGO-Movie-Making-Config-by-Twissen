@@ -82,7 +82,7 @@ AGRweapons   - Enables AGR Recording for Weapons
 AGRptiles    - Enables/Disables Mirv Agr Recording for Granades
 AGRviewmodel - Enables/Disables Mirv Agr Recording for Viewmodel
 Skin         - Enables/Disables Skins
-Vgui		 - Enables/Disables Vgui (Fixes the Reshade Problem)
+[V]			 - Enables/Disables Vgui (Fixes the Reshade Problem)
 [SHIFT+F2]   - Demo Player
 [INS]        - Pause Demo
 [HOME]       - Resume Demo
