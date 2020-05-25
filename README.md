@@ -13,25 +13,22 @@ Version: **6.0**
 C:ProgramFiles(x86)\Steam\userdata\ Account Id \730\local\
 ```
 Click [here](https://steamid.co/) to find out what's your's Account Id.
+
 3. Make a backup of CS:GO local files. Go to:
 ```
 SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo
 ```
 and copy "cfg" folder and store it somewhere safe.
  
-4. Extract CSGO-Moviemaking-Config-by-Twissen.zip with a WinRAR.
+4. Extract CSGO-Moviemaking-Config-by-Twissen.zip with a RAR program.
  
-5. Copy downloaded CFG **FOLDER** and paste it into
+5. Copy downloaded CFG **FOLDER** and go to the following directory.
 ```
-C:\Steam\userdata\ Account Id \730\local\
+SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\
 ```
-6. Change Startup settings for Counter Strike:
- Open Steam -> Library -> Counter-Strike: Global Offensive -right-click-> Properties -> Startup settings
- and paste this into the window:
-```
--console -exec autoexec
-```
-7. You're done!
+Delete CFG folder and paste CFG **FOLDER** you have copied.
+
+6. You're done!
  
 ## Required software
 To make full use of this config pack You need to have installed:
@@ -41,7 +38,7 @@ To make full use of this config pack You need to have installed:
  
 **HLAE custom launcher codes:**
 ```
--dxlevel 98 -nojoy -novid +high -exec autoexec -w 1920 -h 1080
+-dxlevel 98 -nojoy -novid +high -console -exec autoexec -w 1920 -h 1080
 ```
 where:
  
