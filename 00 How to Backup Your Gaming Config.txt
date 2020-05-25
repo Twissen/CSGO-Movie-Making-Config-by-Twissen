@@ -1,0 +1,15 @@
+//Twissen Moviemaking Config v6
+
+Get into the game. Open the console and type host_writeconfig
+Close the game.
+Go to this steam directory.
+C:\Program Files (x86)\Steam\userdata\[YOURSTEAMID]
+and copy 730 folder to somewhere safe.
+
+Also, go to Counter Strike Global Offensive local files directory.
+SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo
+and copy "cfg" folder to somewhere safe.
+That's it!
+
+!Please be aware that this backup process may not backup all of your settings!
+You should have own gaming config to be able to sure that everything is backed up.

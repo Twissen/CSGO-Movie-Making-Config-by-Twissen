@@ -1,0 +1,255 @@
+//Twissen Moviemaking Config v6
+
+
+**First of all you have to launch CS:GO through HLAE**
+
+
+//Frag Record
+(type commands to console one by one)
+exec autoexec
+exec twissen
+FRAGon / [INS]
+STREAMS 
+CLEAN / CLEANworld / CLEANworld2 (If you want to record with mirv stream)  You can choose what ever you need. 
+GREEN / GREENsky / GREENmodels / GREENweapons / GREENeffects / GREENbloods (If you want record to with mirv stream)  You can choose what ever you need .
+depth / mydepth / depthworld / mydepth24* (If you want to record with mirv stream)  You can choose what ever you need. 
+ffmpeg (**if you are going to use ffmpeg recording method)
+[UpArrow/DownArrow/LeftArrow/RightArrow] (Set FPS)
+[F4] (Start Record)
+[F5] (Stop Record)
+*You can use [F11] & [F12] to start and stop record if you didn't use mirv streams
+*You can clear all streams by typing RESETmirv or RESETall
+*You can't record mydepth24 with the ffmpeg.
+
+
+//Smooth Record:
+exec twissen
+SMOOTHon / [HOME]
+STREAMS
+[K] (Enable Input Camera)
+[Mouse3] (Add Campaths - Min of 4)
+[K] (Disable Input Camera)
+[END] (Enable Campaths)
+[G] (Go back 15 Seconds)
+[UpArrow/DownArrow/LeftArrow/RightArrow] (Set FPS)
+CLEAN / CLEANworld / CLEANworld2 (If you want to record with mirv stream)  You can choose what ever you need 
+GREEN / GREENsky / GREENmodels / GREENweapons / GREENeffects / GREENbloods (If you want to record with mirv stream)  You can choose what ever you need. 
+depth / mydepth / depthWORLD / mydepth24* (If you want record with mirv stream)  You can choose what ever you need. 
+ffmpeg (**if you are going to use ffmpeg recording method)
+[F4] (Start Record)
+[F5] (Stop Record)
+*You can use [F11] & [F12] to start and stop record if you don't use mirv streams
+*You can clear all streams by typing RESETmirv or RESETall
+*You can't record mydepth24 with the ffmpeg.
+
+-FEATURES:
+ ================================================================
+ ---------------------MOVIE CFG by TWISSEN-----------------------
+ -------------------www.youtube.com/twissenpb--------------------
+ ================================================================
+ 
+ ================================================================
+                          RECORDING                              
+ ================================================================
+ Recording v1 (TGA files):
+ [F11] - Starts recording (a-z)
+ [F12] - Stops recording
+  
+ Recording v2 (TGA files with mirv record)
+ [F4] - Starts Mirv Recording (a-z)
+ [F5] - Stops Mirv Recording
+  
+ Recording v3: FRAPS Preset
+ FRAPSon: Loads Fraps Recording Preset
+ [T] = Changes Timescale 0.2 / 0
+  
+ Recording v4: ShadowPlay Preset (240fps)
+ SPon: Enables ShadowPlay Recording Preset
+ SPoff: Disables ShadowPlay Recording Preset
+  
+ Recording v5: FFmpeg mov/mp4/webm
+ FFmpeg: Executes FFmpeg config
+ Check out infos and other shortcuts when you execute the command.
+
+ ================================================================
+                     RESOLUTION PRESETS                          
+ ================================================================
+ res1 - Optimizes The Window for 720p
+ res2 - Optimizes The Window for 1080p
+ res3 - Optimizes The Window for 1440p
+ res4 - Optimizes The Window for 2160p
+
+ ================================================================
+                       FRAMERATE BINDS                           
+ ================================================================
+ [UpArrow]   = 500 FPS  [DownArrow]  = 0 FPS
+ [LeftArrow] = 60  FPS  [RightArrow] = 300 FPS
+
+  
+ ================================================================
+                       CONFIG PRESETS                            
+ ================================================================
+ FRAGon   / [HOME]  - Loads Frag Recording Preset
+ SMOOTHon / [INS]   - Loads Smooth Recording Preset
+ FRAPSfrag			 - Loads Fraps Frag Recording Preset
+ FRAPSsmooth 		 - Loads Fraps Smoooth Recording Preset
+
+
+ ================================================================
+                         CINEMATIC                               
+ ================================================================
+ [w] = Forward       [i] = Move up
+ [a] = Move left     [j] = Turn Left
+ [s] = Back          [k] = Move down
+ [d] = Move right    [l] = Turn Right
+ [INS]		- Loads Smooth Recording Preset
+ [K]  		- Enables/Disables Mirv Input Camera
+ [Mouse 3] - Adds a campath
+ [Mouse 4] - Pauses/Resumes the Demo
+ [Mouse 5] - Changes Mirv Timemode
+ [G]		- Goes 15 Seconds Back
+ [END]		- Enables Campath
+ [DEL]		- Clears Campath
+
+ ================================================================
+                      MIRV CAM AND CALS                          
+ ================================================================
+ CAMon       - Loads Mirv Static Camera Mode
+ player0  - Sets Mirv Camera for Player0
+ player1  - Sets Mirv Camera for Player1
+ player2  - Sets Mirv Camera for Player2
+ player3  - Sets Mirv Camera for Player3
+ player4  - Sets Mirv Camera for Player4
+ player5  - Sets Mirv Camera for Player5
+ player6  - Sets Mirv Camera for Player6
+ player7  - Sets Mirv Camera for Player7
+ player8  - Sets Mirv Camera for Player8
+ player9  - Sets Mirv Camera for Player9
+ CAMone   - Loads Mirv Camera Preset 1
+ CAMtwo   - Loads Mirv Camera Preset 2
+ CAMthree - Loads Mirv Camera Preset 3
+ CAMfour  - Loads Mirv Camera Preset 4
+ CAMfive  - Loads Mirv Camera Preset 5
+ CAMsix   - Loads Mirv Camera Preset 6
+ CAMseven - Loads Mirv Camera Preset 7
+ 
+ RESETcam - Removes Mirv Cam and Presets
+ ================================================================
+                         FOG PRESETS                             
+ ================================================================
+ [F] = Fog On/Off
+ fogcolor0  -  Default fog color
+ fogcolor1  -  Fog Color 1
+ fogcolor2  -  Fog Color 2
+ fogcolor3  -  Fog Color 3
+ fogcolor4  -  Fog Color 4
+ fogcolor5  -  Fog Color 5
+ fogcolor6  -  Fog Color 6
+
+ ================================================================
+                           OTHERS                                
+ ================================================================
+ [SHIFT+F2] - Demo Player
+ [Mouse 4]  - Pauses/Resumes the Demo
+ [Mouse 5]  - Changes Mirv Timemode
+ [+]   - Increases FOV
+ [-]   - Decreases FOV
+ [*]   - Resets FOV Value to Config Default
+ [X]   - Changes The Sky
+ [T]   - Changes Timescale 0.2 / 0
+ [C]   - Enables/Disables Crosshair
+ [L]   - Enables/Disables Deathmessage Lock - Local Player Only
+ [H]   - Enables/Disables Deathmessage Highlight
+ [F6]  - Enables/Disables Only Deathnotices
+ [F7]  - Enables/Disables HUD
+ [F8]  - Enables/Disables Viewmodel
+ [F9]  - Enables/Disables Particles (Smoke+)
+ [F10] - Changes Weapon Side
+ skin  - Enables/Disables Weapon Skins
+ [V]   - Enables/Disables Vgui (for Reshade)
+
+ ================================================================
+                             AGR                                 
+ ================================================================
+ How to Activate Mirv Agr
+ 
+ AGR           - Enables/Disables Mirv Agr with the default settings.
+ AGRweapons    - Enables/Disables Mirv Agr Recording for Weapons
+ AGRptiles     - Enables/Disables Mirv Agr Recording for Granades
+ AGRviewmodel  - Enables/Disables Mirv Agr Recording for Viewmodel
+
+ ================================================================
+                            STREAMS                              
+ ================================================================
+ How to Activate Mirv Streams?
+ STREAMS - Activates Mirv Streams Commands
+ Once you activate stream config with streams command
+ you are going to see the stream information.
+  
+ 
+                           RAW STREAMS                           
+ CLEAN       - Loads Clean Stream
+ CLEANworld  - Loads Clean World Stream with Models
+ CLEANworld2 - Loads Clean World Stream
+  
+                          GREEN STREAMS                          
+ GREEN         - Loads Green Stream
+ GREENmodels   - Loads Only Models Green Stream
+ GREENweapons  - Loads Only Weapons Green Stream
+ GREENsky      - Loads Only Skybox Green Stream
+ GREENeffects  - Loads Only Effects Green Stream (Blood,shell)
+ GREENbloods   - Loads Only Bloods Green Stream
+ 
+                          DEPTH STREAMS                          
+ depth      - Loads Depth of Field Stream
+ mydepth    - Loads Depth of Field Stream With My Settings
+ mydepth24  - Loads High Precision Depth Stream
+ depthworld - Loads Depth of Field World Stream
+  
+                        WALLHACK STREAMS                         
+ WALLon     - Enables Wallhack
+ WALLmodels - Enables Wallhack Models Only
+ WALLoff    - Disables Wallhack
+ 
+                           HUD STREAMS                           
+ HUD  - Loads Hud Stream
+  
+  
+ ================================================================
+                            FFMPEG                                
+ ================================================================
+   --- Attention --- 
+
+ This config is only for FFmpeg recording.
+ Don't forget to instal FFmpeg into the HLAE folder.
+ FFMpeg Download link: https://ffmpeg.zeranoe.com/builds/
+ Please install K-Lite Mega Codec Pack if you are having trouble playing the recordings.
+ K-Lite Mega Codec Pack: www.codecguide.com/download_k-lite_codec_pack_mega.htm
+
+
+  --- Preset Informations ---
+
+ Preset | Quality  | Container & Bit |  Pixel Format |  Format |
+
+ tx0 -->  Lossless - Prores 10 bit   -  yuva444p10le -  Mov
+ px5 -->  Lossless - h264-10 NVENC   -  yuv444       -  Mov
+ px4 -->  Lossless - x264-8          -  yuv422p      -  Mp4
+ px3 -->  Great    - x264 8 Fast     -  yuv422p      -  Mp4
+ px2 -->  Good     - x264-8 Fast     -  yuv422p      -  Mp4
+ px1 -->  Ideal    - x264-8 Fast     -  yuv422p      -  Mp4
+ px0 -->  Low      - x264-8 Fast     -  yuv422p      -  Mp4
+ ─────────────────────────────────────────────────────────────────
+
+ Default Preset: tx0 - Lossless 10 bit YUV444 Prores .mov
+
+ RESETffmpeg - Remove FFmpeg Presets (Default TGA Recording)
+ 
+ ================================================================
+                            RESET                                
+ ================================================================
+ [R]         - Resets All Settings
+ RESETfog    - Resets Fog Settings
+ RESETmirv   - Resets Mirv Streams
+ RESETcam    - Removes Mirv Camera
+ RESETffmpeg - Removes FFmpeg Presets
+
