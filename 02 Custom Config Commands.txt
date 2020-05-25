@@ -69,7 +69,7 @@ ffmpeg (**if you are going to use ffmpeg recording method)
   
  Recording v5: FFmpeg mov/mp4/webm
  FFmpeg: Executes FFmpeg config
- Check out infos and other shortcuts when you execute the command.
+ Check out info and other shortcuts when you execute the command.
 
  ================================================================
                      RESOLUTION PRESETS                          
@@ -163,9 +163,9 @@ ffmpeg (**if you are going to use ffmpeg recording method)
  [F6]  - Enables/Disables Only Deathnotices
  [F7]  - Enables/Disables HUD
  [F8]  - Enables/Disables Viewmodel
- [F9]  - Enables/Disables Particles (Smoke+)
+ [F9]  - Enable/Disable Particles (Smoke+)
  [F10] - Changes Weapon Side
- skin  - Enables/Disables Weapon Skins
+ skin  - Enable/Disable Weapon Skins
  [V]   - Enables/Disables Vgui (for Reshade)
 
  ================================================================
