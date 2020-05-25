@@ -1,6 +1,0 @@
-//Twissen Moviemaking Config v6
-
-
-http://www.advancedfx.org/download/
-
---> Always leave HLAE up to date.

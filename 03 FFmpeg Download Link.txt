@@ -1,6 +1,0 @@
-//Twissen Moviemaking Config v6
-
-
-https://ffmpeg.zeranoe.com/builds/
-
-Copy all of the files inside the rar to the HLAE > ffmpeg folder.
