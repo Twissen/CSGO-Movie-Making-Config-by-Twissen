@@ -37,7 +37,7 @@ C:\Steam\userdata\ Account Id \730\local\
 To make full use of this config pack You need to have installed:
 * [Half Life Advanced Effects](http://advancedfx.org/) - Remember to use the latest version!
 * [FFMPEG](https://ffmpeg.zeranoe.com/builds/)
-    Be sure to follow my [guide](https://www.youtube.com/watch?v=VDNgR5AsBXQ) on that tutorial.
+    Be sure to follow my [tutorial](https://www.youtube.com/watch?v=VDNgR5AsBXQ).
  
 **HLAE custom launcher codes:**
 ```
