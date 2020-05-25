@@ -2,7 +2,7 @@
 // Name: twissen_movieCFG.cfg
 // Autor: Twissen
 // Version: V6
-// Release Date: 05/25/2020
+// Release Date: 25.05.2020
 
 -Mirv_cals player presets have been added. Now, you don't need to enter handle key manually. You can type "player0,player1,player2..."
 -[INS]- [HOME] demo resume/pause binds have been removed.

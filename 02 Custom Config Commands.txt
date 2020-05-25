@@ -1,4 +1,4 @@
-//Twissen Moviemaking Config v6
+//Twissen Movie making Config v6
 
 
 **First of all you have to launch CS:GO through HLAE**
