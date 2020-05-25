@@ -1,5 +1,5 @@
-# CS:GO Moviemaking Config Pack by Twissen
-A CS:GO Moviemaking Config Pack made by [Twissen](https://www.youtube.com/channel/UC3bBnCaxlJZImGsoiI8ZbzA) that works with [Half Life Advanced Effects](https://www.advancedfx.org/).
+# CS:GO Movie Making Config Pack by Twissen
+A CS:GO Movie Making Config Pack made by [Twissen](https://www.youtube.com/channel/UC3bBnCaxlJZImGsoiI8ZbzA) that works with [Half Life Advanced Effects](https://www.advancedfx.org/).
 This pack is meant to speed up your's movemaking process.
  
 Latest release: **25.05.2020**
