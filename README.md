@@ -58,4 +58,4 @@ and
  
  
  
-## Thanks to [Shadoweee](https://youtube.com/c/Shadoweee) for creating this page.
+## Thanks to Shadoweee for creating this page.
