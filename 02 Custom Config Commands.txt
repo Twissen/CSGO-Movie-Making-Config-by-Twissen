@@ -208,7 +208,6 @@ ffmpeg (**if you are going to use ffmpeg recording method)
   
                         WALLHACK STREAMS                         
  WALLon     - Enables Wallhack
- WALLmodels - Enables Wallhack Models Only
  WALLoff    - Disables Wallhack
  
                            HUD STREAMS                           
