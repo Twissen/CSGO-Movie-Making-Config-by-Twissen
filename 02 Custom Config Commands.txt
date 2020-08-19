@@ -229,18 +229,22 @@ ffmpeg (**if you are going to use ffmpeg recording method)
 
   --- Preset Informations ---
 
- Preset | Quality  | Container & Bit |  Pixel Format |  Format |
+ Preset  | Quality  | Container & Bit   |  Pixel Format |  IntraF  | Format |  Recommended |  
 
- tx0 -->  Lossless - Prores 10 bit   -  yuva444p10le -  Mov
- px5 -->  Lossless - h264-10 NVENC   -  yuv444       -  Mov
- px4 -->  Lossless - x264-8          -  yuv422p      -  Mp4
- px3 -->  Great    - x264 8 Fast     -  yuv422p      -  Mp4
- px2 -->  Good     - x264-8 Fast     -  yuv422p      -  Mp4
- px1 -->  Ideal    - x264-8 Fast     -  yuv422p      -  Mp4
- px0 -->  Low      - x264-8 Fast     -  yuv422p      -  Mp4
- ─────────────────────────────────────────────────────────────────
+ tx00 -->  Lossless - Prores HQ 10 bit  -  yuva444p10le -    *		Mov    -  	*****
+ 
+ tx3  -->  Lossless - Prores HQ 10 bit  -  yuva422p10le -    *		Mov    -  	****
+ tx2  -->  Lossless - Prores SQ 10 bit  -  yuva422p10le -    *		Mov    -  	***
+ tx1  -->  Lossless - Prores LT 10 bit  -  yuva422p10le -    *		Mov    -  	**
+ px5  -->  Lossless - h264nvenc 10 bit  -  yuv444       -    *		Mov    -  	***
+ px4  -->  Lossless - x264-8            -  yuv422p      -    *		Mp4    -  	*
+ px3  -->  Great    - x264 8 Fast       -  yuv422p      -  			Mp4
+ px2  -->  Good     - x264-8 Fast       -  yuv422p      -  			Mp4
+ px1  -->  Ideal    - x264-8 Fast       -  yuv422p      -  			Mp4
+ px0  -->  Low      - x264-8 Fast       -  yuv422p      -  			Mp4
+ ─────────────────────────────────────────────────────────────-──────────────────────────────
 
- Default Preset: tx0 - Lossless 10 bit YUV444 Prores .mov
+ Default Preset: tx00 - Lossless 10 bit YUV444 Prores .mov
 
  RESETffmpeg - Remove FFmpeg Presets (Default TGA Recording)
  
