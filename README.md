@@ -2,8 +2,8 @@
 A CS:GO Moviemaking Config Pack made by [Twissen](https://www.youtube.com/channel/UC3bBnCaxlJZImGsoiI8ZbzA) that works with [Half Life Advanced Effects](https://www.advancedfx.org/).
 This pack is meant to speed up your's movemaking process.
  
-Latest release: **19.08.2020**
-Version: **6.0**
+Latest release: **03.01.2021**
+Version: **6.0.1**
  
 ## Instalation process
 1. Download the entire repository.

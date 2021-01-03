@@ -1,4 +1,4 @@
-//Twissen Movie making Config v6
+//Twissen Movie making Config v6.0.1
 
 
 **First of all you have to launch CS:GO through HLAE**
@@ -208,6 +208,7 @@ ffmpeg (**if you are going to use ffmpeg recording method)
   
                         WALLHACK STREAMS                         
  WALLon     - Enables Wallhack
+ WALLmodels - Enables Wallhack Models Only
  WALLoff    - Disables Wallhack
  
                            HUD STREAMS                           
