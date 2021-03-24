@@ -1,7 +1,8 @@
 // CFG Version
 // Name: twissen_movieCFG.cfg
 // Autor: Twissen
-// Version: v6.0.1
-// Release Date: 03.01.2020
+// Version: v6.0.2
+// Release Date: 23.03.2021
 
--Greenweapon and HUD streams have been fixed.
+-Some unnecessary codes have been removed.
+-Custom Config Commands have been updated.
