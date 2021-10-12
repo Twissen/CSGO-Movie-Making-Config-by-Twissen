@@ -2,8 +2,7 @@
 A CS:GO Moviemaking Config Pack made by [Twissen](https://www.youtube.com/channel/UC3bBnCaxlJZImGsoiI8ZbzA) that works with [Half Life Advanced Effects](https://www.advancedfx.org/).
 This pack is meant to speed up your's movemaking process.
  
-Latest release: **23.03.2021**
-Version: **6.0.2**
+Latest release: **10/12/2021**
  
 ## Instalation process
 1. Download the entire repository.
@@ -46,18 +45,11 @@ where:
 and
  -h stands for height
  
-***HLAE Custom Loader Environment Variables (Required to run properly from the custom loader)
-SteamPath=C:\Program Files (x86)\Steam
-SteamClientLaunch=1
-SteamGameId=730
-SteamAppId=730
- 
- 
  # Use of the tool
 You can check out "Custom Config Commands" text file or the config info when you execute the movie making config.
  
 ## Contact me
-* [YouTube](https://www.youtube.com/channel/UC3bBnCaxlJZImGsoiI8ZbzA)
+* [YouTube](https://www.youtube.com/c/twissen)
 * [Fiverr](https://www.fiverr.com/twissen/)
 * [Steam](https://steamcommunity.com/id/twissen/)
 * Email - sktwissen@gmail.com

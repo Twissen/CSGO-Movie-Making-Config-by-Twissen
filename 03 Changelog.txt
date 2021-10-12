@@ -1,8 +1,26 @@
 // CFG Version
 // Name: twissen_movieCFG.cfg
 // Autor: Twissen
-// Version: v6.0.2
-// Release Date: 23.03.2021
+// Update Date: 10/12/2021
+
+-"SPon & SPoff" commands replaced with "sp". (Now, you can use SP to enable or disable shadowplay recording)
+
+-"WALLon & WALLoff" commands replaced with "wh". (Now, you can use WH to enable wallhack stream)
+
+-Wallhack visibilty issued fixed.
+
+-"CLEAN, CLEANworld, CLEANworld2" commands replaced with "normal, normalWorld, onlyworld".
+
+-"FRAGon" & "SMOOTHon" commands replaced with "frag" and "smooth".,
+
+-greenBloods commands have been removed.
+
+-greenEffects commands have been fixed.
+
+-greenEffects command replaced with "greenFX"
+
+-GOTV demo ad removal codes have been added.
 
 -Some unnecessary codes have been removed.
--Custom Config Commands have been updated.
+
+-Config info texts updated.
